@@ -1,0 +1,26 @@
+.header {
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  
+  .header h1 {
+    font-size: 24px;
+  }
+  
+  .header p {
+    font-size: 16px;
+  }
+  
+  /* Style for content sections */
+  .content {
+    margin: 20px;
+  }
+  
+  .section {
+    margin-bottom: 20px;
+  }
+  
+  .section h2 {
+    font-size: 20px;
+  }
