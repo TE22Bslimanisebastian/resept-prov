@@ -24,3 +24,24 @@
   .section h2 {
     font-size: 20px;
   }
+  .section p {
+    font-size: 16px;
+  }
+  
+  
+  .images {
+    text-align: center;
+  }
+  
+  .images img {
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+  }
+  
+  /* Style for quantity */
+  .quantity {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+  }
