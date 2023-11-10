@@ -1,23 +1,124 @@
 body{
-  margin: 0px;
+  font-family: sans-serif;
 }
 
-.header{
-  padding-top: 10px;
+.main_grid{
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr ;
+  grid-template-rows: auto auto auto auto;
+}
 
-  width: auto;
-  height: 100px;
-
-  background-color: gray;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+header{
+  grid-column: 1/4;
   text-align: center;
+  grid-row: 1;
+  background-color: rgb(128, 134, 100);
+  border: 2px solid rgb(128, 134, 100);
+  border-radius: 10px;
 }
 
-.header > h1, .header > p{
-  margin-top: 0px;
+nav{
+  grid-column: 1/4;
+  grid-row: 2;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: rgb(128, 134, 100);
+  border: 2px solid rgb(128, 134, 100);
+  border-radius: 10px;
+}
+
+section{
+  grid-column: 1/2;
+  grid-row: 3;
+  background-color: rgb(63, 186, 235);
+  padding: 10px;
+  margin-right: 200px;
+  border: 2px solid rgb(63, 186, 235);
+  border-radius: 10px;
+}
+
+main{
+  grid-column: 2/3;
+  grid-row: 3;
+  background-color: rgb(63, 186, 235);
+  text-align: center;
+  border: 2px solid rgb(63, 186, 235);
+  border-radius: 10px;
+  margin-right: 40px;
+  margin-left: 40px;
+}
+
+.bild1{
+  grid-column: 1/2;
+  grid-row: 4;
+  margin-top: 100px;
+}
+
+.bild1 img{
+  height: 294px;
 }
 
 
+
+
+body{
+  font-family: sans-serif;
+}
+
+.main_grid{
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr ;
+  grid-template-rows: auto auto auto auto;
+}
+
+header{
+  grid-column: 1/4;
+  text-align: center;
+  grid-row: 1;
+  background-color: rgb(128, 134, 100);
+  border: 2px solid rgb(128, 134, 100);
+  border-radius: 10px;
+}
+
+nav{
+  grid-column: 1/4;
+  grid-row: 2;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: rgb(128, 134, 100);
+  border: 2px solid rgb(128, 134, 100);
+  border-radius: 10px;
+}
+
+section{
+  grid-column: 1/2;
+  grid-row: 3;
+  background-color: rgb(63, 186, 235);
+  padding: 10px;
+  margin-right: 200px;
+  border: 2px solid rgb(63, 186, 235);
+  border-radius: 10px;
+}
+
+main{
+  grid-column: 2/3;
+  grid-row: 3;
+  background-color: rgb(63, 186, 235);
+  text-align: center;
+  border: 2px solid rgb(63, 186, 235);
+  border-radius: 10px;
+  margin-right: 40px;
+  margin-left: 40px;
+}
+
+.bild1{
+  grid-column: 1/2;
+  grid-row: 4;
+  margin-top: 100px;
+}
+
+.bild1 img{
+  height: 294px;
+}
